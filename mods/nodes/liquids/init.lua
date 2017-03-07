@@ -278,3 +278,5 @@ minetest.register_node("liquids:lava_flowing", {
 	groups = {lava = 3, liquid = 2, igniter = 1,
 		not_in_creative_inventory = 1},
 })
+
+print("Liquids mod loaded")

@@ -221,3 +221,5 @@ minetest.register_craft({
 	output = "stone:desert_stone",
 	recipe = "stone:desert_cobble",
 })
+
+print("Stone mod loaded")

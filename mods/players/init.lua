@@ -158,3 +158,5 @@ minetest.register_globalstep(function(dtime)
 		end
 	end
 end)
+
+print("Player mod loaded")

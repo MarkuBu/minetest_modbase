@@ -294,3 +294,5 @@ function stairs.register_stair_and_slab(subname, recipeitem,
 	stairs.register_stair(subname, recipeitem, groups, images, desc_stair, sounds)
 	stairs.register_slab(subname, recipeitem, groups, images, desc_slab, sounds)
 end
+
+print("Stairs mod loaded")

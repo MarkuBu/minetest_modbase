@@ -15,3 +15,5 @@ minetest.register_item(":", {
 		damage_groups = {fleshy=1},
 	}
 })
+
+print("Wieldhand mod loaded")

@@ -20,3 +20,5 @@ sfinv.register_page("sfinv:crafting", {
 			]], true)
 	end
 })
+
+print("sfinv mod loaded")

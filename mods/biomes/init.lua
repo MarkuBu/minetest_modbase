@@ -99,8 +99,12 @@ for line in file:lines() do
 
 		local id = minetest.register_biome(biome)
 
-		print("Biome \"" .. name .. "\" registered with ID=" .. id .. ", temperature " .. biome.heat_point .. ", humidity " .. biome.humidity_point .. ".")
+		--~ print("Biome \"" .. name .. "\" registered with ID=" .. id ..
+				--~ ", temperature " .. biome.heat_point .. ", humidity " ..
+				--~ biome.humidity_point .. ".")
 	end
 end
 
 file:close()
+
+print("Biomes mod loaded")

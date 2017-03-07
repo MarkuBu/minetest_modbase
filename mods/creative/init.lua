@@ -62,3 +62,5 @@ function minetest.handle_node_drops(pos, drops, digger)
 		end
 	end
 end
+
+print("Creative mod loaded")

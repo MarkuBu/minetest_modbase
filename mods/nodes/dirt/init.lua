@@ -69,3 +69,6 @@ minetest.register_node("dirt:dirt_with_grass", {
 		--~ footstep = {name = "default_grass_footstep", gain = 0.4},
 	--~ }),
 --~ })
+
+
+print("Dirt mod loaded")

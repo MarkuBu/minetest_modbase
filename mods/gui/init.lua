@@ -24,3 +24,5 @@ gui.gui_survival_form = "size[8,8.5]"..
 			"listring[current_player;main]"..
 			"listring[current_player;craft]"..
 			gui.get_hotbar_bg(0,4.25)
+
+print("Gui mod loaded")

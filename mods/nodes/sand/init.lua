@@ -281,3 +281,5 @@ minetest.register_node("sand:sand", {
 		--~ {"sand:silver_sandstone", "sand:silver_sandstone", "sand:silver_sandstone"},
 	--~ }
 --~ })
+
+print("Sand mod loaded")
