@@ -1,0 +1,4 @@
+stone
+sand
+dirt
+liquids

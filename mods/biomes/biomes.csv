@@ -1,0 +1,13 @@
+#Open this file with a spreadsheet software,,,,,,,,,,,
+#Use a leading '#' to disable a line,,,,,,,,,,,
+#Blank cells are ignored,,,,,,,,,,,
+,,,,,,,,,,,
+#Name,Stone,Fill,Top,Dust,Sea,River,Riverbed,Elev_min,Elev_max,Heat,Humidity
+,,,,,,,,,,,
+#deciduous_forest,,,,,,,,,,,
+grassland,stone:stone,dirt:dirt 3,dirt:dirt_with_grass,,,,sand:sand 3,1,31000,50,50
+grassland_shore,stone:stone,dirt:dirt 3,dirt:dirt,,,,sand:sand 3,-1,0,50,50
+grassland_ocean,stone:stone,dirt:dirt 3,sand:sand,,,,sand:sand 3,-112,-2,50,50
+
+#Underground,,,,,,,,,,,
+underground,stone:stone,,,,,,,-31000,-113,50,50
