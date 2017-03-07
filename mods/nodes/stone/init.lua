@@ -8,13 +8,13 @@ minetest.register_node("stone:stone", {
 	--~ sounds = default.node_sound_stone_defaults(),
 })
 
---~ minetest.register_node("stone:cobble", {
-	--~ description = "Cobblestone",
-	--~ tiles = {"default_cobble.png"},
-	--~ is_ground_content = false,
-	--~ groups = {cracky = 3, stone = 2},
+minetest.register_node("stone:cobble", {
+	description = "Cobblestone",
+	tiles = {"default_cobble.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 2},
 	--~ sounds = default.node_sound_stone_defaults(),
---~ })
+})
 
 --~ minetest.register_node("stone:stonebrick", {
 	--~ description = "Stone Brick",
@@ -34,13 +34,13 @@ minetest.register_node("stone:stone", {
 	--~ sounds = default.node_sound_stone_defaults(),
 --~ })
 
---~ minetest.register_node("stone:mossycobble", {
-	--~ description = "Mossy Cobblestone",
-	--~ tiles = {"default_mossycobble.png"},
-	--~ is_ground_content = false,
-	--~ groups = {cracky = 3, stone = 1},
+minetest.register_node("stone:mossycobble", {
+	description = "Mossy Cobblestone",
+	tiles = {"default_mossycobble.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
 	--~ sounds = default.node_sound_stone_defaults(),
---~ })
+})
 
 
 --~ minetest.register_node("stone:desert_stone", {
@@ -79,35 +79,35 @@ minetest.register_node("stone:stone", {
 --~ })
 
 
---~ stairs.register_stair_and_slab(
-	--~ "stone",
-	--~ "stone:stone",
-	--~ {cracky = 3},
-	--~ {"default_stone.png"},
-	--~ "Stone Stair",
-	--~ "Stone Slab",
-	--~ default.node_sound_stone_defaults()
---~ )
+stairs.register_stair_and_slab(
+	"stone",
+	"stone:stone",
+	{cracky = 3},
+	{"default_stone.png"},
+	"Stone Stair",
+	"Stone Slab",
+	nil
+)
 
---~ stairs.register_stair_and_slab(
-	--~ "cobble",
-	--~ "stone:cobble",
-	--~ {cracky = 3},
-	--~ {"default_cobble.png"},
-	--~ "Cobblestone Stair",
-	--~ "Cobblestone Slab",
-	--~ default.node_sound_stone_defaults()
---~ )
+stairs.register_stair_and_slab(
+	"cobble",
+	"stone:cobble",
+	{cracky = 3},
+	{"default_cobble.png"},
+	"Cobblestone Stair",
+	"Cobblestone Slab",
+	nil
+)
 
---~ stairs.register_stair_and_slab(
-	--~ "mossycobble",
-	--~ nil,
-	--~ {cracky = 3},
-	--~ {"default_mossycobble.png"},
-	--~ "Mossy Cobblestone Stair",
-	--~ "Mossy Cobblestone Slab",
-	--~ default.node_sound_stone_defaults()
---~ )
+stairs.register_stair_and_slab(
+	"mossycobble",
+	"stone:mossycobble",
+	{cracky = 3},
+	{"default_mossycobble.png"},
+	"Mossy Cobblestone Stair",
+	"Mossy Cobblestone Slab",
+	nil
+)
 
 --~ stairs.register_stair_and_slab(
 	--~ "stonebrick",
@@ -204,20 +204,20 @@ minetest.register_node("stone:stone", {
 	--~ }
 --~ })
 
---~ minetest.register_craft({
-	--~ type = "cooking",
-	--~ output = "stone:stone",
-	--~ recipe = "stone:cobble",
---~ })
+minetest.register_craft({
+	type = "cooking",
+	output = "stone:stone",
+	recipe = "stone:cobble",
+})
 
---~ minetest.register_craft({
-	--~ type = "cooking",
-	--~ output = "stone:stone",
-	--~ recipe = "stone:mossycobble",
---~ })
+minetest.register_craft({
+	type = "cooking",
+	output = "stone:stone",
+	recipe = "stone:mossycobble",
+})
 
---~ minetest.register_craft({
-	--~ type = "cooking",
-	--~ output = "stone:desert_stone",
-	--~ recipe = "stone:desert_cobble",
---~ })
+minetest.register_craft({
+	type = "cooking",
+	output = "stone:desert_stone",
+	recipe = "stone:desert_cobble",
+})
