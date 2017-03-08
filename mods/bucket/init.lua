@@ -1,6 +1,8 @@
 -- Minetest 0.4 mod: bucket
 -- See README.txt for licensing and other information.
 
+local S = intllib.make_gettext_pair()
+
 minetest.register_alias("bucket", "bucket:bucket_empty")
 minetest.register_alias("bucket_water", "bucket:bucket_water")
 minetest.register_alias("bucket_lava", "bucket:bucket_lava")
@@ -110,7 +112,7 @@ function bucket.register_liquid(source, flowing, itemname, inventory_image, name
 end
 
 minetest.register_craftitem("bucket:bucket_empty", {
-	description = "Empty Bucket",
+	description = S("Empty Bucket"),
 	inventory_image = "bucket.png",
 	stack_max = 99,
 	liquids_pointable = true,
@@ -184,7 +186,7 @@ bucket.register_liquid(
 	"liquids:water_flowing",
 	"bucket:bucket_water",
 	"bucket_water.png",
-	"Water Bucket",
+	S("Water Bucket"),
 	{water_bucket = 1}
 )
 
@@ -193,7 +195,7 @@ bucket.register_liquid(
 	"liquids:river_water_flowing",
 	"bucket:bucket_river_water",
 	"bucket_river_water.png",
-	"River Water Bucket",
+	S("River Water Bucket"),
 	{water_bucket = 1},
 	true
 )
@@ -203,7 +205,7 @@ bucket.register_liquid(
 	"liquids:lava_flowing",
 	"bucket:bucket_lava",
 	"bucket_lava.png",
-	"Lava Bucket"
+	S("Lava Bucket")
 )
 
 minetest.register_craft({

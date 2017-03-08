@@ -1,0 +1,4 @@
+Empty Bucket = Leerer Eimer
+Water Bucket = Eimer mit Wasser
+River Water Bucket = Eimer mit Flusswasser
+Lava Bucket = Eimer mit Lava

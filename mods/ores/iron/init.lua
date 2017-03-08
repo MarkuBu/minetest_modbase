@@ -1,6 +1,8 @@
 
+local S = intllib.make_gettext_pair()
+
 minetest.register_node("iron:stone_with_iron", {
-	description = "Iron Ore",
+	description = S("Iron Ore"),
 	tiles = {"default_stone.png^default_mineral_iron.png"},
 	groups = {cracky = 2},
 	drop = 'iron:iron_lump',
@@ -9,13 +11,13 @@ minetest.register_node("iron:stone_with_iron", {
 
 
 minetest.register_craftitem("iron:steel_ingot", {
-	description = "Steel Ingot",
+	description = S("Steel Ingot"),
 	inventory_image = "default_steel_ingot.png",
 })
 
 
 minetest.register_node("iron:steelblock", {
-	description = "Steel Block",
+	description = S("Steel Block"),
 	tiles = {"default_steel_block.png"},
 	is_ground_content = false,
 	groups = {cracky = 1, level = 2},
@@ -24,7 +26,7 @@ minetest.register_node("iron:steelblock", {
 
 
 minetest.register_craftitem("iron:iron_lump", {
-	description = "Iron Lump",
+	description = S("Iron Lump"),
 	inventory_image = "default_iron_lump.png",
 })
 

@@ -1,0 +1,4 @@
+Iron Ore = Eisenerz
+Steel Ingot = Stahlbarren
+Steel Block = Stahlblock
+Iron Lump = Eisenbrocken
